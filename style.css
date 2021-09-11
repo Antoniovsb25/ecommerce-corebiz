@@ -22,14 +22,33 @@ nav {
     font-weight: 400;
 }
 
+a:visited {
+    color: #000;
+}
+
 nav > a {
     text-decoration: none;
     cursor: pointer;
     margin: 0.5rem;
+    transition: all 0.1s ease;
+}
+
+nav > a:hover {
+    transform: scale(1.1);
+}
+
+.search-btn {
+    border: none;
+    background-color: #fff;
+    cursor: pointer;
 }
 
 h2 {
     font-weight: 700;
+}
+
+h4 {
+    color: #969494;
 }
 
 .banner {
@@ -89,6 +108,13 @@ h2 {
     margin: 8px;
     border-radius: 5px;
     box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.281);
+    justify-content: center;
+    align-items: center;
+    transition: all 0.1s ease;
+}
+
+.card:hover {
+    transform: scale(1.02);
 }
 
 .buy-button {
@@ -98,8 +124,16 @@ h2 {
     background-color:
     #00E676;
     color: #fff;
-    border-radius: 10px; 
+    border-radius: 5px; 
     width: 50%;
+    font-weight: 700;
+    border: none;
+    cursor: pointer;
+    transition: all 0.1s ease;
+}
+
+.buy-button:hover {
+    transform: scale(1.1);
 }
 
 aside {
@@ -124,6 +158,13 @@ aside {
     color: #fff;
     padding: 5px;
     border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.1s ease;
+}
+
+.submit-button:hover {
+    transform: scale(1.15);
 }
 
 footer {
@@ -157,4 +198,6 @@ footer {
     border-radius: 10px;
     margin: 0.5rem;
     padding: 1rem;
+    border: none;
+    cursor: pointer;
 }
