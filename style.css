@@ -1,0 +1,132 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #fff;
+    color: #000;
+}
+
+nav > a {
+    text-decoration: none;
+    cursor: pointer;
+    margin: 1rem;
+}
+
+.banner {
+    display: flex;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.banner-left {
+    background-color: #000;
+    width: 50%;
+}
+
+.banner-left > p {
+    margin: auto;
+}
+
+.banner-left > p > span {
+    color: #E9BF33;
+}
+
+
+
+.banner-right {
+    background-color: blue;
+    width: 50%;
+}
+
+.banner-image {
+    width: 100%;
+    height: 100%;
+}
+
+.card-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+    
+}
+
+.card {
+    background-color: #f2f2f2;
+    padding: 5px;
+    margin: 8px;
+    border-radius: 5px;
+    box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.281);
+}
+
+.buy-button {
+    padding: 10px;
+    margin-top: 0.5rem;
+    background-color:
+    #00E676;
+    color: #fff;
+    border-radius: 10px; 
+}
+
+aside {
+    margin-top: 2rem;
+    background-color: #f2f2f2;
+    padding-bottom: 2rem;
+}
+
+.promo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.promo > input {
+    margin: 1rem;
+}
+
+.submit-button {
+    background-color: #E9BF33;
+    color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #000;
+    display: flex;
+    color: #fff;
+    justify-content:space-around;
+    align-items: center;
+}
+
+.location {
+    display: flex;
+    flex-direction: column;
+}
+
+.location > p {
+    margin-top: 1rem;
+}
+
+.contacts {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.contacts .support-button {
+    background-color: #E9BF33;
+    color: #fff;
+    border-radius: 10px;
+    margin: 0.5rem;
+    padding: 1rem;
+}
